@@ -236,7 +236,7 @@ suspend fun registerConsent(options: ResubscribeOptions) {
 
     try {
         val client = HttpClient()
-        val response: HttpResponse = client.get("https://api.resubscribe.ai/v1/sessions/consent") {
+        val response: HttpResponse = client.get("https://api.resubscribe.ai/sessions/consent") {
             url {
                 params.filterValues { it != null }.forEach {
                     parameters.append(it.key, it.value.toString())
