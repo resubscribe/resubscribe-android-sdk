@@ -94,7 +94,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "ai.resubscribe"
                 artifactId = "resubscribe-android-sdk"
-                version = "1.0.10"
+                version = "1.0.11"
 
                 pom {
                     name = "Resubscribe Android SDK"
