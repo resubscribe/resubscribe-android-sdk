@@ -10,6 +10,7 @@ class ResubscribeActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: android.os.Bundle?) {
         super.onCreate(savedInstanceState)
+
         options = intent.getParcelableExtra(EXTRA_OPTIONS)!!
 
         setContent {
