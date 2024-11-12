@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+.deployment.md
+private.pgp
+notes.txt
